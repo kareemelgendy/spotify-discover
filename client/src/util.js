@@ -18,3 +18,26 @@ export const formatCategory = (category) => {
   }
   return `${category.toLowerCase().replace(" ", "-")}`
 }
+
+// Formats the name of long items
+export const formatName = (name) => {
+  let formattedName = name.substring(0, 18)
+  if (name.length > 18) {
+    return formattedName + "..."
+  }
+  return formattedName
+}
+
+// Formats the tag - owner/artist/show
+export const formatTag = (artists) => {
+  if (typeof artists === "object") {
+    let tag = artists.slice(0, 2)
+    if (artists.length > 1) {
+      return tag.join(", ")
+    }
+    if (artists.length > 2) {
+      return tag + "..."
+    }
+  }
+  return artists
+}
