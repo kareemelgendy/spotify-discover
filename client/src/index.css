@@ -15,6 +15,11 @@ body {
   transition: background-color 0.2s ease-in-out;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 button {
   font-family: inherit;
   cursor: pointer;
