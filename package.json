@@ -1,0 +1,20 @@
+{
+  "name": "spotify-wrapped",
+  "version": "1.0.0",
+  "description": "Visualize personal Spotify data",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareemelgendy/spotify-wrapped.git"
+  },
+  "author": "Kareem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kareemelgendy/spotify-wrapped/issues"
+  },
+  "homepage": "https://github.com/kareemelgendy/spotify-wrapped#readme"
+}
