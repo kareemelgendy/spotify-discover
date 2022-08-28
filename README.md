@@ -1,9 +1,5 @@
 # Spotify Wrapped
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/749ffd34-6fc0-4d5b-be64-4ce183c3c0ce/deploy-status)](https://app.netlify.com/sites/k-spotify-wrapped/deploys)
-
-[View here](https://k-spotify-wrapped.netlify.app/)
-
 Web application for visualizing personal Spotify data.
 
 It allows users to learn more about their listening patterns by viewing their top tracks, top artists, and more.
