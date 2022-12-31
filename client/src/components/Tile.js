@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import { formatCategory } from "../util";
-import styled from "styled-components";
+import { Link } from "react-router-dom"
+import { formatCategory } from "../util"
+import styled from "styled-components"
 
 const Tile = ({ type }) => {
   return (
@@ -15,8 +15,8 @@ const Tile = ({ type }) => {
         <Title>{type}</Title>
       </Container>
     </Link>
-  );
-};
+  )
+}
 
 const Container = styled.div`
   height: 100%;
@@ -36,7 +36,7 @@ const Container = styled.div`
   &:active {
     background: #1b1b1b;
   }
-`;
+`
 
 const Title = styled.span`
   text-transform: capitalize;
@@ -49,6 +49,6 @@ const Title = styled.span`
   @media (max-width: 720px) {
     font-size: 16px;
   }
-`;
+`
 
-export default Tile;
+export default Tile

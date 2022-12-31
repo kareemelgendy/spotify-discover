@@ -1,16 +1,16 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 const Preloader = () => (
   <Wrapper>
     <Spinner />
   </Wrapper>
-);
+)
 
 const Wrapper = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
-`;
+`
 
 const Spinner = styled.div`
   display: block;
@@ -21,6 +21,6 @@ const Spinner = styled.div`
   border-bottom-color: white;
   border-radius: 50%;
   animation: spin 0.75s infinite linear;
-`;
+`
 
-export default Preloader;
+export default Preloader

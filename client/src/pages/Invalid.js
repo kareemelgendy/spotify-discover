@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import { Link } from "react-router-dom"
+import styled from "styled-components"
 
 const Error = () => (
   <Container>
@@ -10,7 +10,7 @@ const Error = () => (
       <Button>Go back home</Button>
     </Link>
   </Container>
-);
+)
 
 const Container = styled.div`
   min-height: 100vh;
@@ -18,19 +18,19 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-`;
+`
 
 const Title = styled.h1`
   text-transform: uppercase;
   font-weight: 900;
   font-size: 42px;
   margin: 0;
-`;
+`
 
 const Subtitle = styled.p`
   font-weight: 400;
   font-size: 18px;
-`;
+`
 
 const Button = styled.button`
   background: #1db954;
@@ -44,6 +44,6 @@ const Button = styled.button`
   color: white;
   cursor: pointer;
   margin: 10px;
-`;
+`
 
-export default Error;
+export default Error

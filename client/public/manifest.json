@@ -1,6 +1,6 @@
 {
-  "short_name": "Spotify V2",
-  "name": "Spotify Wrapped V2",
+  "short_name": "Spotify Profile",
+  "name": "Spotify Profile V2",
   "icons": [
     {
       "src": "favicon.ico",

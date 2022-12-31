@@ -1,5 +1,5 @@
-import { formatName, formatTag } from "../util";
-import styled from "styled-components";
+import { formatName, formatTag } from "../util"
+import styled from "styled-components"
 
 const Element = ({ name, tag, image, link, rounded }) => {
   return (
@@ -14,8 +14,8 @@ const Element = ({ name, tag, image, link, rounded }) => {
         </Container>
       </Wrapper>
     </a>
-  );
-};
+  )
+}
 
 const Wrapper = styled.div`
   height: 295px;
@@ -33,7 +33,7 @@ const Wrapper = styled.div`
   &:active {
     background: #1b1b1b;
   }
-`;
+`
 
 const Container = styled.div`
   display: flex;
@@ -41,29 +41,29 @@ const Container = styled.div`
   justify-content: ${({ rounded }) =>
     rounded ? "space-evenly" : "space-between"};
   max-width: 200px;
-`;
+`
 
 const Image = styled.img`
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: ${({ rounded }) => (rounded ? "50%" : "5px")};
-`;
+`
 
 const Details = styled.div`
   text-align: ${({ rounded }) => (rounded ? "center" : "left")};
-`;
+`
 
 const Name = styled.span`
   text-transform: capitalize;
   font-weight: 700;
   font-size: 18px;
-`;
+`
 
 const Tag = styled.p`
   text-transform: capitalize;
   margin: 0 0 10px 0;
   font-weight: 300;
-`;
+`
 
-export default Element;
+export default Element

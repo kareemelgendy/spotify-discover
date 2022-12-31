@@ -1,5 +1,5 @@
 {
-  "name": "spotify-wrapped",
+  "name": "spotify-profile",
   "version": "1.0.0",
   "description": "Visualize personal Spotify data",
   "main": "server/index.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kareemelgendy/spotify-wrapped.git"
+    "url": "git+https://github.com/kareemelgendy/spotify-profile.git"
   },
   "author": "Kareem",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kareemelgendy/spotify-wrapped/issues"
+    "url": "https://github.com/kareemelgendy/spotify-profile/issues"
   },
-  "homepage": "https://github.com/kareemelgendy/spotify-wrapped#readme"
+  "homepage": "https://github.com/kareemelgendy/spotify-profile#readme"
 }

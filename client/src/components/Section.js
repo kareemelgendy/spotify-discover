@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import { formatCategory } from "../util";
-import styled from "styled-components";
-import Element from "./Element";
+import { Link } from "react-router-dom"
+import { formatCategory } from "../util"
+import styled from "styled-components"
+import Element from "./Element"
 
 const Section = ({ section, items }) => {
   return (
@@ -26,19 +26,19 @@ const Section = ({ section, items }) => {
           ))}
       </Elements>
     </>
-  );
-};
+  )
+}
 
 const SectionHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-`;
+`
 
 const Title = styled.h2`
   font-weight: 800;
   text-transform: capitalize;
-`;
+`
 
 const Button = styled.div`
   border-radius: 5px;
@@ -53,7 +53,7 @@ const Button = styled.div`
   &:active {
     background: #1f1f1f;
   }
-`;
+`
 
 const Elements = styled.div`
   height: 295px;
@@ -62,6 +62,6 @@ const Elements = styled.div`
   grid-auto-rows: minmax(min-content, max-content);
   grid-gap: 10px;
   overflow: hidden;
-`;
+`
 
-export default Section;
+export default Section

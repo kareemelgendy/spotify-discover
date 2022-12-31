@@ -1,13 +1,13 @@
-import { formatCategory, isFilterable } from "../util";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { formatCategory, isFilterable } from "../util"
+import styled from "styled-components"
+import { Link } from "react-router-dom"
 
 const Filterbar = ({ category, filter, setFilter }) => {
   const periods = {
     "This month": "short_term",
     "Past 6 Months": "medium_term",
-    "All Time": "long_term",
-  };
+    "All Time": "long_term"
+  }
 
   return (
     <Container>
@@ -39,8 +39,8 @@ const Filterbar = ({ category, filter, setFilter }) => {
         </div>
       )}
     </Container>
-  );
-};
+  )
+}
 
 const Container = styled.div`
   max-width: 1760px;
@@ -51,14 +51,14 @@ const Container = styled.div`
   padding: 10px 20px;
 
   flex-wrap: wrap;
-`;
+`
 
 const Path = styled.div`
   display: flex;
   align-items: center;
   text-transform: capitalize;
   margin-right: 20px;
-`;
+`
 
 const Button = styled.button`
   color: white;
@@ -86,6 +86,6 @@ const Button = styled.button`
       margin-right: 7px;
     }
   }
-`;
+`
 
-export default Filterbar;
+export default Filterbar

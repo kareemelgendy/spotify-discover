@@ -1,4 +1,4 @@
-# Spotify Wrapped
+# Spotify Profile
 
 Web application for visualizing personal Spotify data.
 

@@ -12,7 +12,7 @@ const Login = () => {
         height={142}
         width={142}
       />
-      <Title>Spotify Wrapped</Title>
+      <Title>Spotify Profile</Title>
       <Subtitle>Learn more about your listening patterns.</Subtitle>
       <Button onClick={handleLogin}>Login with Spotify</Button>
     </Container>

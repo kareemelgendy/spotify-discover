@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
-import { handleSignOut } from "../util";
+import { Link } from "react-router-dom"
+import styled from "styled-components"
+import { handleSignOut } from "../util"
 
 const Navbar = () => {
   return (
@@ -20,8 +20,8 @@ const Navbar = () => {
         Logout
       </Button>
     </Container>
-  );
-};
+  )
+}
 
 const Container = styled.nav`
   max-width: 1760px;
@@ -31,18 +31,18 @@ const Container = styled.nav`
   justify-content: space-between;
   padding: 20px;
   margin: auto;
-`;
+`
 
 const Logo = styled.div`
   display: flex;
   align-items: center;
   font-size: 21px;
   font-weight: 700;
-`;
+`
 
 const Image = styled.img`
   margin-right: 10px;
-`;
+`
 
 const Button = styled.button`
   background: #1ed760;
@@ -60,5 +60,5 @@ const Button = styled.button`
   &:active {
     background: #1ed760;
   }
-`;
-export default Navbar;
+`
+export default Navbar

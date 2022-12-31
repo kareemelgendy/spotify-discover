@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
         </Code>
       </a>
       <a
-        href="https://github.com/kareemelgendy/spotify-wrapped"
+        href="https://github.com/kareemelgendy/spotify-profile"
         target="_blank"
         rel="noreferrer noopener"
       >
@@ -34,8 +34,8 @@ const Footer = () => {
         </Code>
       </a>
     </Container>
-  );
-};
+  )
+}
 
 const Container = styled.footer`
   display: flex;
@@ -43,7 +43,7 @@ const Container = styled.footer`
   max-width: 1760px;
   flex-wrap: wrap;
   padding-top: 20px;
-`;
+`
 
 const Code = styled.div`
   display: flex;
@@ -53,10 +53,10 @@ const Code = styled.div`
   text-decoration: underline;
   white-space: nowrap;
   margin: 10px;
-`;
+`
 
 const Image = styled.img`
   margin-right: 10px;
-`;
+`
 
-export default Footer;
+export default Footer
